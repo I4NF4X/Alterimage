@@ -35,7 +35,7 @@ Nous avons développé un programme en Python qui interagit avec l'API Dall-E po
 
 3. **Prompt de Modification**
 
-   - La description de l'image est intégrée à un prompt personnalisé afin de créer une consigne détaillée à soumettre à Dall-E pour la génération d'une image modifiée.
+   - La description de l'image est intégrée à un prompt personnalisé afin de créer une consigne détaillée à soumettre à Dall-E pour la génération d'une image modifiée.<br>
      &emsp;```Add a hat on the cat and glasses on the dog```
 4. **Traitement par DALL-E**
 
