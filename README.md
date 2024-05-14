@@ -8,18 +8,31 @@ Dans le cadre de ce projet, notre équipe travaille sur l'utilisation de l'API D
 ### Technologies Utilisées
 - Langage de programmation : Python
 - Environnement de développement : Visual Studio Code
-- API Utilisée : OpenAI
-    - Model : Dall-E-3
+- API OpenAI Utilisée :
+    - Dall-E
+        - Model : Dall-E-3
+    - GPT
+        - GPT3.5
+        - GPT4
 
 ### Documentation de Référence
 Nous nous sommes appuyés sur les documents suivants pour comprendre et implémenter notre solution :
 - [Documentation sur la génération d'images via Dall-E](https://platform.openai.com/docs/guides/images)
 - [Documentation sur l'utilisation de l'API d'OpenAI](https://platform.openai.com/docs/api-reference/images)
+- [Documentation sur l'utilisation de GPT Vision](https://platform.openai.com/docs/guides/vision)
+- Inspiration de retour utilisateurs sur Reddit
 
 ## Implémentation
 
 ### Développement du Programme
-Nous avons développé un programme en Python qui interagit avec l'API Dall-E pour générer des images selon les spécifications fournies. Le programme utilise les bibliothèques Python nécessaires pour effectuer des requêtes HTTP et traiter les données JSON renvoyées par l'API.
+Notre équipe a développé un programme en langage Python qui permet à l'utilisateur de sélectionner une image de son choix et de saisir les modifications qu'il souhaite lui apporter. Ce processus s'articule en plusieurs étapes distinctes :
+
+1. L'image sélectionnée est soumise à une analyse approfondie par le biais de l'API de GPT-4, permettant ainsi d'obtenir une description extrêmement détaillée de ses caractéristiques et de son contenu.
+
+2. Les instructions de modification fournies par l'utilisateur sont envoyées à GPT-3.5, accompagnées de la description détaillée de l'image obtenue à l'étape précédente. Ces éléments sont fusionnés pour former un prompt complet, combinant les détails spécifiques de l'image avec les demandes de modification de l'utilisateur.
+
+3. Enfin, le prompt généré est transmis à DALL-E, déclenchant le processus de génération d'une nouvelle image. DALL-E utilise ce prompt pour créer une image personnalisée, intégrant les modifications spécifiées par l'utilisateur tout en conservant les caractéristiques fondamentales de l'image d'origine.
+
 
 ### Workflow
 1. **Soumission de l'Image et du Texte Descriptif**
