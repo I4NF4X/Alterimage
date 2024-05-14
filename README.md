@@ -92,5 +92,5 @@ A highly detailed, close-up, realistic photograph features the faces of a light 
 
    - Dall-E reçoit le prompt final et procède à la génération d'une nouvelle image, s'appuyant sur l'image d'origine et tenant compte des modifications spécifiées.
     <p align="center"><br>
-        <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
+        <img src="/image/chien_chat_final.png" alt="Image de référence" style="width:25%; height:auto;">
     </p><br>
