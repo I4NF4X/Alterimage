@@ -35,7 +35,10 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
 
 
 ### Workflow
-1. **Soumission de l'Image et du Texte Descriptif**
+1. **Sélection de l'image et des modifications par l'utilisateur**
+   - Avant de débuter le processus de modification, l'utilisateur est invité à choisir une image de son choix et à spécifier les modifications qu'il souhaite y apporter.
+
+2. **Soumission de l'Image et du Texte Descriptif**
    - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
 
     <p align="center"><br>
@@ -44,7 +47,7 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
 
 
    
-2. **Traitement par GPT-4**
+3. **Traitement par GPT-4**
 
    - Après une analyse approfondie de notre image, nous recevons un retour détaillé comprenant une description exhaustive.
 
@@ -71,7 +74,7 @@ The picture is a very close-up, highly detailed, realistic photograph featuring 
 The photograph could be a cherished, spontaneous moment of interaction between pet companions, artistically captured with professional equipment to highlight their endearing traits and the subtle beauty in their expressions.
 ```
 
-3. **Prompt de Modification**
+4. **Prompt de Modification**
 
    - La description de l'image est intégrée à un prompt personnalisé afin de créer une consigne détaillée à soumettre à Dall-E pour la génération d'une image modifiée.<br>
      &emsp;```Add a hat on the cat and glasses on the dog```
@@ -101,7 +104,7 @@ The picture is a very close-up, highly detailed, realistic photograph featuring 
 A highly detailed, close-up, realistic photograph features the faces of a light brown cat sporting a miniature black top hat and a Tricolored Corgi dog, both looking directly into the camera. The background consists of out of focus, warm, amber tones adding a soft bokeh effect. The cat's striking gold eyes contrast against its light brown and creamy white patched fur. The Corgi's large, glossy dark brown eyes look friendly and gentle against its black, white, and brown fur. The cat's one paw, with pink pads and white fur, is raised and the dog wears round sleek glasses. The image exudes a sense of warmth, comfort, and companionship.
 ```
  
-4. **Traitement par DALL-E**
+5. **Traitement par DALL-E**
 
    - Dall-E reçoit le prompt final et procède à la génération d'une nouvelle image, s'appuyant sur l'image d'origine et tenant compte des modifications spécifiées.
     <p align="center"><br>
