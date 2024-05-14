@@ -42,7 +42,7 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
    - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
 <div>
     <p align="center">
-        ```Add a hat on the cat and glasses on the dog```
+        <code>Add a hat on the cat and glasses on the dog</code>
     </p>
     <p align="center">
         <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
