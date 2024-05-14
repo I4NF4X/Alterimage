@@ -46,7 +46,7 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
       <code>Add a hat on the cat and glasses on the dog</code>
     </td>
     <td style="width: 50%; text-align:left; border: none;">
-      <img src="/image/chien_chat_reference.png" alt="Image de référence" style="max-width:50%; height:auto;">
+      <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:50%; height:auto;">
     </td>
   </tr>
 </table>
