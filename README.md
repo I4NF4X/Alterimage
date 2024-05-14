@@ -79,7 +79,7 @@ The photograph could be a cherished, spontaneous moment of interaction between p
 4. **Prompt de Modification**
 
    - La description de l'image est intégrée à un prompt personnalisé afin de créer une consigne détaillée à soumettre à Dall-E pour la génération d'une image modifiée.<br>
-     &emsp;```Add a hat on the cat and glasses on the dog```
+     &emsp;Rappel du prompt : ```Add a hat on the cat and glasses on the dog```
 
 ```
 The picture is a very close-up, highly detailed, realistic photograph featuring the faces of a cat and a dog, placed side by side. Both animals are looking directly at the camera, creating a sense of intimacy and engagement with the viewer. The background is softly out of focus, consisting of warm, amber tones with a soft bokeh effect, highlighting the subjects and adding to the warm ambiance of the image.
