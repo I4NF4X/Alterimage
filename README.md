@@ -1,7 +1,7 @@
 # AlterImage
 
 ## Introduction
-Dans le cadre de ce projet, notre équipe travaille sur l'utilisation de l'API Dall-E de OpenAI pour générer des images à partir de descriptions textuelles. L'objectif est de soumettre une image accompagnée d'un texte descriptif à l'API, qui retournera une image modifiée selon les spécifications fournies.
+Notre équipe a développé un programme en Python qui offre à l'utilisateur la possibilité de personnaliser des images de son choix. Grâce à une série d'étapes coordonnées, le programme utilise des technologies de pointe telles que GPT-4, GPT-3.5 et DALL-E pour analyser, transformer et générer des images selon les préférences spécifiques de l'utilisateur. Ce processus méticuleux garantit une expérience de modification d'image précise et personnalisée.
 
 ## Méthodologie
 
