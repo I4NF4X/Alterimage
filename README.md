@@ -40,22 +40,37 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
 
 2. **Soumission de l'Image et du Texte Descriptif**
    - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
-<table style="width: 50%; border: none;">
-  <tr style="border: none;">
-    <td style="width: 50%; text-align:center; vertical-align:middle; border: none; position: relative;">
-      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+<head>
+  <style>
+    .table-cell {
+      width: 50%;
+      text-align: center;
+      vertical-align: middle;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .image-container {
+      max-width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <table style="width: 100%; border: none;">
+    <tr style="border: none;">
+      <td class="table-cell">
         <code>Add a hat on the cat and glasses on the dog</code>
-      </div>
-    </td>
-    <td style="width: 50%; text-align:center; vertical-align:middle; border: none; position: relative;">
-      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 50%;">
-        <p align="center">
-          <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width: 100%; height: auto;">
+      </td>
+      <td class="table-cell">
+        <p align="center" class="image-container">
+          <img src="/image/chien_chat_reference.png" alt="Image de référence" style="max-width: 100%; height: auto;">
         </p>
-      </div>
-    </td>
-  </tr>
-</table>
+      </td>
+    </tr>
+  </table>
+</body>
+
   
 3. **Traitement par GPT-4**
 
