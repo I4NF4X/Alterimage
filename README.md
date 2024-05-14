@@ -24,7 +24,7 @@ Nous avons développé un programme en Python qui interagit avec l'API Dall-E po
 ### Workflow
 1. **Soumission de l'Image et du Texte Descriptif**
    - Notre programme envoie une image ainsi qu'un texte descriptif à l'API Dall-E.
-    <p align="center">![Image et texte descriptif](https://github.com/I4NF4X/Alterimage/blob/main/image/chien_chat_reference.png?raw=true)</p>
+    <p align="center">![Image et texte descriptif](![Image et texte descriptif](https://raw.githubusercontent.com/I4NF4X/Alterimage/main/image/chien_chat_reference.png)</p>
     
 2. **Traitement par Dall-E**
    - L'API Dall-E traite la demande et génère une nouvelle image en fonction du texte descriptif.
