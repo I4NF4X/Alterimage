@@ -38,8 +38,6 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
 1. **Sélection de l'image et des modifications par l'utilisateur**
    - Avant de débuter le processus de modification, l'utilisateur est invité à choisir une image de son choix et à spécifier les modifications qu'il souhaite y apporter.
 
-2. **Soumission de l'Image et du Texte Descriptif**
-   - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
 <div>
     <p align="center">
         <code>Add a hat on the cat and glasses on the dog</code>
@@ -48,6 +46,9 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
         <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
     </p>
 </div>
+
+2. **Soumission de l'Image et du Texte Descriptif**
+   - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
   
 3. **Traitement par GPT-4**
 
