@@ -36,7 +36,7 @@ Nous avons développé un programme en Python qui interagit avec l'API Dall-E po
 3. **Prompt de Modification**
 
    - La description de l'image est intégrée à un prompt personnalisé afin de créer une consigne détaillée à soumettre à Dall-E pour la génération d'une image modifiée.
-    > Add a hat on the cat and glasses on the dog
+     &emsp;```Add a hat on the cat and glasses on the dog```
 4. **Traitement par DALL-E**
 
    - Dall-E reçoit le prompt final et procède à la génération d'une nouvelle image, s'appuyant sur l'image d'origine et tenant compte des modifications spécifiées.
