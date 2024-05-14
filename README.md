@@ -23,41 +23,23 @@ Nous avons développé un programme en Python qui interagit avec l'API Dall-E po
 
 ### Workflow
 1. **Soumission de l'Image et du Texte Descriptif**
-   - Notre programme envoie une image ainsi qu'un texte descriptif à l'API Dall-E.
+   - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
 
     <p align="center"><br>
         <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
     </p><br>
    
-2. **Traitement par Dall-E**
-   - L'API Dall-E traite la demande et génère une nouvelle image en fonction du texte descriptif.
-3. **Réception de l'Image Modifiée**
-   - Notre programme reçoit l'image générée par Dall-E et la stocke localement.
+2. **Traitement par GPT-4**
 
-## Exemple d'Utilisation
+   - Après une analyse approfondie de notre image, nous recevons un retour détaillé comprenant une description exhaustive.
 
-```python
-import requests
+3. **Prompt de Modification**
 
-# URL de l'API Dall-E
-api_url = "https://api.openai.com/v1/images/dalle-3/complete"
+   - La description de l'image est intégrée à un prompt personnalisé afin de créer une consigne détaillée à soumettre à Dall-E pour la génération d'une image modifiée.
 
-# Données d'entrée : image et texte descriptif
-input_data = {
-    "image": "chemin/vers/image.jpg",
-    "prompt": "Un chat levant la patte et un chien sur un fond jaune dans un style osier. Je veux que le chat ait un chapeau."
-}
+4. **Traitement par DALL-E**
 
-# Clé d'API OpenAI
-api_key = "YOUR_API_KEY"
-
-# Envoi de la requête à l'API Dall-E
-response = requests.post(api_url, json=input_data, headers={"Authorization": f"Bearer {api_key}"})
-
-# Traitement de la réponse
-if response.status_code == 200:
-    # Récupération de l'image générée
-    generated_image = response.json()["output"]["image"]
-    # Affichage ou sauvegarde de l'image
-else:
-    print("Erreur lors de la requête à l'API Dall-E:", response.text)
+   - Dall-E reçoit le prompt final et procède à la génération d'une nouvelle image, s'appuyant sur l'image d'origine et tenant compte des modifications spécifiées.
+    <p align="center"><br>
+        <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
+    </p><br>
