@@ -40,36 +40,9 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
 
 2. **Soumission de l'Image et du Texte Descriptif**
    - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
-<head>
-  <style>
-    .table-cell {
-      width: 50%;
-      text-align: center;
-      vertical-align: middle;
-      border: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .image-container {
-      max-width: 50%;
-    }
-  </style>
-</head>
-<body>
-  <table style="width: 100%; border: none;">
-    <tr style="border: none;">
-      <td class="table-cell">
-        <code>Add a hat on the cat and glasses on the dog</code>
-      </td>
-      <td class="table-cell">
-        <p align="center" class="image-container">
-          <img src="/image/chien_chat_reference.png" alt="Image de référence" style="max-width: 100%; height: auto;">
-        </p>
-      </td>
-    </tr>
-  </table>
-</body>
+|                                         |                                         |
+|-----------------------------------------|-----------------------------------------|
+| Add a hat on the cat and glasses on the dog | ![Image de référence](/image/chien_chat_reference.png){: style="max-width: 50%; margin: auto; display: block;"} |
 
   
 3. **Traitement par GPT-4**
