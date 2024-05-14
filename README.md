@@ -42,18 +42,17 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
    - Notre programme demande à GPT-4 via son API une description hyper détailler de l'image que nous avons publié.
 <table style="width: 50%; border: none;">
   <tr style="border: none;">
-    <td style="width: 50%; text-align:center; vertical-align:middle; border: none;">
+    <td style="width: 50%; text-align:center; vertical-align:middle; border: none; display: flex; align-items: center; justify-content: center;">
       <code>Add a hat on the cat and glasses on the dog</code>
     </td>
-    <td style="width: 50%; text-align:center; vertical-align:middle; border: none;">
+    <td style="width: 50%; text-align:center; vertical-align:middle; border: none; display: flex; align-items: center; justify-content: center;">
         <p align="center">
-            <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
+            <img src="/image/chien_chat_reference.png" alt="Image de référence" style="max-width: 50%; height:auto;">
         </p>
     </td>
   </tr>
 </table>
-
-   
+  
 3. **Traitement par GPT-4**
 
    - Après une analyse approfondie de notre image, nous recevons un retour détaillé comprenant une description exhaustive.
