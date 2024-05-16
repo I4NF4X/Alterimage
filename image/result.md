@@ -20,12 +20,11 @@
         <img src="/image/chien_chat_final.png" alt="Image de référence" style="width:33%; height:auto;">
     </p>
     <p align="justify">
-        <code>
-            An intimate, close-up photograph captures the warmth between two friendly animals - a cat and a corgi dog. 
-            The soft focus background bathes the scene in a cosseting glow of golden-brown hue. 
-            Positioned to the left, the camera captures a tabby-like cat raised on a paw. The primarily white furred face complements the playfully poised black, smooth fabric top hat, bringing an air of sophistication and whimsy. Wide-eyed, it has golden irises, a soft pink nose, and fine white whiskers extending from its muzzle. 
-            On the right, a corgi, with a face adorned with patches of brown and grey fur, leans into the frame. His eyes are shielded by tiny round glasses with thin gold frames. Large pointed ears bear a mix of grey and brown fur. A shiny black nose pops out from his white face. The image's playful charm is reinforced by their accessories - a top hat for the cat and glasses for the dog. 
-            The warm, soft light along with the blurred background concentrates the viewer's attention on the subjects, with an acute focus on textures of fur, little nuances in their expressions, and the affection that radiates from their interaction.
+        <code>An intimate, close-up photograph captures the warmth between two friendly animals - a cat and a corgi dog. 
+The soft focus background bathes the scene in a cosseting glow of golden-brown hue. 
+Positioned to the left, the camera captures a tabby-like cat raised on a paw. The primarily white furred face complements the playfully poised black, smooth fabric top hat, bringing an air of sophistication and whimsy. Wide-eyed, it has golden irises, a soft pink nose, and fine white whiskers extending from its muzzle. 
+On the right, a corgi, with a face adorned with patches of brown and grey fur, leans into the frame. His eyes are shielded by tiny round glasses with thin gold frames. Large pointed ears bear a mix of grey and brown fur. A shiny black nose pops out from his white face. The image's playful charm is reinforced by their accessories - a top hat for the cat and glasses for the dog. 
+The warm, soft light along with the blurred background concentrates the viewer's attention on the subjects, with an acute focus on textures of fur, little nuances in their expressions, and the affection that radiates from their interaction.
         </code>
     </p>
 </div>
