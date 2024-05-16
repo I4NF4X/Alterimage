@@ -120,3 +120,5 @@ A highly detailed, close-up, realistic photograph features the faces of a light 
 ## Difficultés rencontré
 
  - Dall-E ne peut pas à lui seul faire de transfert de style, seulement de la génération via prompt ou une variation aléatoire (pas de possibilité de prompt), nous avons donc du rajouter des étapes en utilisant GPT-4 afin de pouvoir généré des images fidèle à celle d'origine.
+ - Sans instruction spécifique, GPT-4 ne nous retourner pas assez de précision sur la description de l'image. Problème résolu en ajustant notre prompt.
+ - Problème similaire sur le prompt automatique de génération d'image, GPT ne répétait pas toute la description faite précédemment. Résolu de la même façon.
