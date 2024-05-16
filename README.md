@@ -42,7 +42,7 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
         <code>Add a hat on the cat and glasses on the dog</code>
     </p>
     <p align="center">
-        <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
+        <img src="/image/windows_preset.png" alt="Image de référence" style="width:25%; height:auto;">
     </p>
 </div>
 
@@ -52,6 +52,10 @@ Notre équipe a développé un programme en langage Python qui permet à l'utili
 3. **Traitement par GPT-4**
 
    - Après une analyse approfondie de notre image, nous recevons un retour détaillé comprenant une description exhaustive.
+
+    <p align="center">
+        <img src="/image/chien_chat_reference.png" alt="Image de référence" style="width:25%; height:auto;">
+    </p>
 
 ```
 The picture is a very close-up, highly detailed, realistic photograph featuring the faces of a cat and a dog, placed side by side. Both animals are looking directly at the camera, creating a sense of intimacy and engagement with the viewer. The background is softly out of focus, consisting of warm, amber tones with a soft bokeh effect, highlighting the subjects and adding to the warm ambiance of the image.
